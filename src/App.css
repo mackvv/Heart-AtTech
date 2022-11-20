@@ -2,7 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Kollektif";
+  src: url('./assets/Kollektif.ttf');
 }
+
+@font-face{
+  font-family: "Kollektif";
+  src: url('./assets/Kollektif.ttf');
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -47,4 +55,23 @@ input {
   border-radius: 5px;
   cursor: pointer;
 }
+.horizontal-items, .footer {
+  display: flex;
+  flex-direction: row;
+}
 
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+
+.nav{
+  justify-content: space-between;
+  font-size: 27px;
+}
+
+.link{
+  color: lightseagreen;
+  font-size: 34px;
+}
