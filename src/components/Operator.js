@@ -31,7 +31,7 @@ const Operator = () => {
         const newData = querySnapshot.docs
             .map((doc) => ({...doc.data(), id:doc.id }));
 
-        setCurrentCall(newData[newData.length - 1]);                
+        setCurrentCall(newData[0]);                
         console.log(currentCall);
     })
 
