@@ -3,13 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.todo-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;    
 }
 
-.todo {
+.items {
   width: 70%;
   margin: 3rem auto 0 auto;    
 }
@@ -40,6 +40,4 @@ input {
   cursor: pointer;
 }
 
-.todo-content {
-  margin-top: 2rem;
-}
+

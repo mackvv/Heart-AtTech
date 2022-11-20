@@ -1,8 +1,8 @@
-import Todo from "./components/Todo.js";
+import Operator from "./components/Operator.js";
 function App() {
   return (
     <div className="App">
-      <Todo/>
+      <Operator/>
     </div>
   );
 }
