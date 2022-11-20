@@ -85,7 +85,7 @@ const Operator = () => {
                             className="btn"
                             onClick={requestLocation}
                         >
-                            Request Location
+                            Get Location
                         </button>
                         <button
                             type="submit"

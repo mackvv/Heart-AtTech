@@ -1,20 +1,41 @@
 *{
   padding: 0;
-  margin: 0;
+  margin: 1vh, 1vw, 1vh, 1vw;
   box-sizing: border-box;
   font-family: "Kollektif";
   src: url('./assets/Kollektif.ttf');
+  min-height: max-content;
 }
 
 @font-face{
   font-family: "Kollektif";
   src: url('./assets/Kollektif.ttf');
 }
+.root{
+  height: 100%;
+}
+.head-button{
+  padding: 0%;
+  margin: 0%;
+  margin: auto;
+}
 
+html{
+  height: 100%;
+}
+.App{
+  height: 70%;
+}
+
+.spicyspicyhead{
+  height: 70%
+}
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;    
+  align-items: center;  
+  height: 50%;  
+  margin: auto;
 }
 
 .items {
@@ -59,19 +80,56 @@ input {
   display: flex;
   flex-direction: row;
 }
+.headheadhead .horizontal-items{
+  width: auto;
+}
+.logo-text{
+height: auto;
+}
+
+.horizo{
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 55%;
+}
+.leftleftxx{
+  width: max-content;
+}
 
 .logo-text{
   display: flex;
   flex-direction: column;
-  margin: auto
+  margin: auto;
+  padding: 0%;
 }
 
-.nav{
+.regreg{
+  margin-left: 50%;
+}
+
+p.nav{
   justify-content: space-between;
   font-size: 27px;
+  margin: 0%;
+}
+.horizo{
+  flex-direction: row;
 }
 
 .link{
   color: lightseagreen;
   font-size: 34px;
+}
+
+.leftxlog{
+  margin: auto;
+}
+
+.footer{
+  margin: auto;
+  padding-top: 35vh;
+}
+
+.footer-text{
+  margin: 2vh;
 }

@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Operator from "./Operator";
-// import EMSCaller from "./EMSCaller";
+import EMSCaller from "./EMSCaller";
 // import Citizen from "./Citizen";
 import logo from "./../assets/yes-removebg-preview.png";
 
 export default function Header() {
   return (
-    <div>
-      <div className="horizontal-items">
-        <div>
-          <img src={logo} width="7%" height="auto" alt="failed"></img>
+    <div className="spicyspicyhead">
+      <div className="horizontal-items headheadhead">
+        <img src={logo} width="7%" height="auto" alt="failed"></img>
+        <div className="horizo">
           <div className="logo-text">
             <div className="link">Heart AtTech</div>
             <BrowserRouter>
@@ -34,10 +34,10 @@ export default function Header() {
             </BrowserRouter>
           </div>
         </div>
-        <div>
-          <div className="horizontal-items">
-            <button className="head-button">Log in</button>
-            <button className="head-button">Register</button>
+        <div className="leftleftxx">
+          <div type="submit" className="horizontal-items">
+            <button  type="submit" className="head-button leftxlog btn">Log in</button>
+            <button type="submit" className="head-button regreg btn">Register</button>
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@ export default function Header() {
         <Routes>
           <Route path="/" element={Operator()} />
           <Route path="/operator" element={Operator()} />
-          {/* <Route path="/emscaller" element={EMSCaller()} />
-          <Route path="/citizen" element={Citizen()} /> */}
+          <Route path="/emscaller" element={EMSCaller()} />
+          {/* <Route path="/citizen" element={Citizen()} /> */}
         </Routes>
       </BrowserRouter>
     </div>
