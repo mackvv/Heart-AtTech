@@ -40,4 +40,11 @@ input {
   cursor: pointer;
 }
 
+.disabled {
+  padding: 10px 1rem;
+  background: rgb(127, 127, 165);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
